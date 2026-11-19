@@ -2,7 +2,7 @@
 const WHATSAPP = "393755871504";
 const EMAIL = "stefbattistin@gmail.com";
 const PRICE = 109;              // per person. Also appears as text in the HTML pages (search and replace 109)
-const PRIVATE_PRICE = 480;      // whole van, up to 8 guests
+const PRIVATE_PRICE = 629;      // whole van, up to 8 guests
 const FORM_ENDPOINT = "https://formspree.io/f/xyeeaway";
 const GA_ID = "";              // Google Analytics ID, e.g. "G-XXXXXXXXXX"
 /* PAYMENT: create Stripe Payment Links (with adjustable quantity for the shared tour) and paste them here */

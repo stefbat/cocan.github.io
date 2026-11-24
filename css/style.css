@@ -116,7 +116,7 @@ input[type=date]{-webkit-appearance:none;appearance:none;display:block;min-width
 .sched span{max-width:100%;text-align:center}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
-.logo{text-decoration:none;display:inline-block;line-height:normal}
+.logo{text-decoration:none;display:inline-block}
 .links a{font:500 .95rem Inter,sans-serif;padding:9px 16px;border-radius:99px;color:var(--grey);text-decoration:none}
 .links a.on{background:var(--blue);color:#fff}
 .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
@@ -139,11 +139,6 @@ input[type=date]{-webkit-appearance:none;appearance:none;display:block;min-width
  /* scorrendo, la barra delle lingue si ritira nella barra in alto */
  nav.scrolled{padding-top:8px;padding-bottom:8px;row-gap:0}
  nav.scrolled .lang{max-height:0;opacity:0}
-}
-
-@media(max-width:390px){
- nav{padding-inline:10px}
- .links a{padding-inline:5px}
 }
 
 .article p a{color:var(--grey);text-decoration:underline;text-underline-offset:2px}

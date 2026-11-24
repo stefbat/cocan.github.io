@@ -143,3 +143,9 @@ input[type=date]{-webkit-appearance:none;appearance:none;display:block;min-width
 
 .article p a{color:var(--grey);text-decoration:underline;text-underline-offset:2px}
 .article p a:hover{color:var(--ink)}
+
+@media (min-width: 768px) {
+    .logo {
+      line-height: normal;
+    }
+  }

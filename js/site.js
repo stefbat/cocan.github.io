@@ -15,7 +15,7 @@ function ssinfo(ds){if(!ds)return null;var p=ds.split("-").map(Number),y=p[0],mo
  var de=0.006918-0.399912*Math.cos(g)+0.070257*Math.sin(g)-0.006758*Math.cos(2*g)+0.000907*Math.sin(2*g)-0.002697*Math.cos(3*g)+0.00148*Math.sin(3*g);
  var ha=Math.acos(Math.cos(90.833*R)/(Math.cos(lat)*Math.cos(de))-Math.tan(lat)*Math.tan(de))/R;
  var mins=Math.round((720-4*(lon-ha)-eq)/5)*5,f=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Rome",hour:"2-digit",minute:"2-digit"});
- var t=function(x){return f.format(new Date(Date.UTC(y,mo,dd)+x*6e4))};return{dep:t(mins-465),end:t(mins+30)}}
+ var t=function(x){return f.format(new Date(Date.UTC(y,mo,dd)+x*6e4))};return{dep:t(mins-480),end:t(mins+30)}}
 function left(ds){if(!ds)return null;if(CLOSED.indexOf(ds)>-1)return 0;return Math.max(0,CAPACITY-(BOOKED[ds]||0))}
 function seats(ds){var l=left(ds);if(l===null)return"";if(l===0)return t(2);if(l<=3)return t(3,l);return""}
 var today=new Date().toISOString().slice(0,10);

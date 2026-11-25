@@ -43,6 +43,7 @@ section{padding:clamp(56px,9vw,110px) clamp(20px,6vw,80px)}
 .days{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:48px}
 .day{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 1px 0 #dedede}
 .day .ph{aspect-ratio:4/3}
+.day .ph > figcaption{position:absolute;left:0;right:0;bottom:0}
 .day .body{padding:22px 22px 26px}
 .day h3{font-size:1.7rem;margin-bottom:4px}
 .day .when{color:var(--grey);font-size:.85rem;margin-bottom:12px}
